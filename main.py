@@ -49,7 +49,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <h1>Lottery's Festival Fair</h1>
-        <div class="item" id="itemDisplay">{{ item if item else 'No items available' }}</div>
+        <div class="item" id="itemDisplay">---</div>
         <button onclick="generateNew()" id="generateBtn">Generate New Item</button>
     </div>
 
