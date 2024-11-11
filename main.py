@@ -92,7 +92,7 @@ def get_random_item():
             except_items = [line.strip() for line in file.readlines()]
 
         # Generate numbers from 100 to 4FF (hex)
-        all_items = [hex(i)[2:].upper() for i in range(0x100, 0x4FF)]
+        all_items = [hex(i)[2:].upper() for i in range(0x100, 0x500)]
 
         # Filter out excepted items
         available_items = [item for item in all_items if item not in except_items]
