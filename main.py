@@ -7,7 +7,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lottery's Festival Fair</title>
+    <title>Lottery Festival Fair</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -48,9 +48,9 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h1>Lottery's Festival Fair</h1>
+        <h1>Lottery Festival Fair</h1>
         <div class="item" id="itemDisplay">---</div>
-        <button onclick="generateNew()" id="generateBtn">Generate New Item</button>
+        <button onclick="generateNew()" id="generateBtn">Roll</button>
     </div>
 
     <script>
